@@ -1,0 +1,17 @@
+{"time":"2025-04-16T21:59:44.711853-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/andrewlee/Desktop/dslearning/AI-counting-cranes/wandb/run-20250416_215944-fy98ef0i/logs/debug-core.log"}
+{"time":"2025-04-16T21:59:44.821552-04:00","level":"INFO","msg":"created new stream","id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:44.821612-04:00","level":"INFO","msg":"stream: started","id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:44.821761-04:00","level":"INFO","msg":"handler: started","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:44.821903-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:44.822022-04:00","level":"INFO","msg":"sender: started","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:45.01133-04:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-16T21:59:45.011655-04:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-04-16T21:59:46.016902-04:00","level":"INFO","msg":"stream: closing","id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:46.017418-04:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-16T21:59:46.136856-04:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-16T21:59:46.137993-04:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project leeandrewjooyoung/yolo-birds not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-16T21:59:46.139321-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T21:59:46.139467-04:00","level":"INFO","msg":"sender: closed","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:46.139449-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:46.139603-04:00","level":"INFO","msg":"handler: closed","stream_id":"fy98ef0i"}
+{"time":"2025-04-16T21:59:46.139656-04:00","level":"INFO","msg":"stream: closed","id":"fy98ef0i"}

@@ -1,0 +1,64 @@
+{
+  "os": "macOS-13.3.1-arm64-arm-64bit",
+  "python": "CPython 3.11.5",
+  "startedAt": "2025-04-17T02:02:53.923044Z",
+  "args": [
+    "--imgsz",
+    "736",
+    "--epochs",
+    "100",
+    "--data",
+    "yolov5/data/sandhill_crane.yaml",
+    "--batch-size",
+    "16",
+    "--weights",
+    "yolov5s.pt",
+    "--cache",
+    "ram",
+    "--device",
+    "cpu",
+    "--project",
+    "yolo-birds",
+    "--name",
+    "exp_1"
+  ],
+  "program": "/Users/andrewlee/Desktop/dslearning/AI-counting-cranes/yolov5/train.py",
+  "codePath": "yolov5/train.py",
+  "git": {
+    "remote": "https://github.com/leeanddrew/AI-counting-cranes.git",
+    "commit": "cb760b9bdac5586499de62f164e85279fec35bd1"
+  },
+  "email": "andrewlee1@g.harvard.edu",
+  "root": "/Users/andrewlee/Desktop/dslearning/AI-counting-cranes",
+  "host": "andrew-lee.local",
+  "executable": "/Users/andrewlee/anaconda3/bin/python",
+  "codePathLocal": "yolov5/train.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "205010825216"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "205010825216"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 16,
+    "swapTotalBytes": "19327352832",
+    "ramTotalBytes": "17179869184"
+  }
+}
