@@ -1,0 +1,14 @@
+opencv-python
+pillow
+sahi
+torch
+torchvision
+pycocotools
+matplotlib
+scikit-learn
+numpy
+PyYAML
+tqdm
+seaborn
+thop
+pandas
