@@ -1,2 +1,4 @@
-data/yolov5_dataset//
+data/yolov5_dataset/
+wandb
+yolo-birds
 
