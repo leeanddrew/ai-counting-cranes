@@ -8,7 +8,6 @@ from sahi.predict import get_sliced_prediction
 from sahi.utils.cv import read_image
 import argparse
 
-
 def convert_to_yolo_format(bbox, iw=736, ih=736):
     x_min, y_min, width, height = bbox
     x_center = x_min + (width / 2)
