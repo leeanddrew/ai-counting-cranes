@@ -1,0 +1,5 @@
+outs:
+- md5: eb0c0c9e5bbaa5ab799b850fd44c86e9.dir
+  size: 55945746
+  nfiles: 750
+  path: yolov5_dataset
