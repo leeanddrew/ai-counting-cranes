@@ -31,13 +31,13 @@ detection_model = AutoDetectionModel.from_pretrained(
 @app.post("/predict-image/")
 async def predict_image(file: UploadFile = File(...)):
     # Save uploaded image to temp location
-    os.makedirs("api_temp", exist_ok=True)
-    image_path = f"api_temp/{file.filename}"
+    os.makedirs("../frontend/api_temp", exist_ok=True)
+    image_path = f"../frontend/api_temp/{file.filename}"
     with open(image_path, "wb") as f:
         f.write(await file.read())
 
     # Run inference
-    output_path = "api_temp/predicted.png"
+    output_path = "../frontend/api_temp/predicted.png"
     sahi_single_inference(
         image_path=image_path,
         detection_model=detection_model,

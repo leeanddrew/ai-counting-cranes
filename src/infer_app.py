@@ -22,7 +22,7 @@ def sahi_single_inference(
     )
 
     result.export_visuals(
-        file_name="temp",
+        file_name="./temp",
         export_dir=os.path.dirname(output_path),
         hide_labels=True,
         rect_th=1
