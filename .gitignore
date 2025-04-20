@@ -1,6 +1,5 @@
 # .gitignore
-/public/assets/*
-
+frontend/
 data/yolov5_dataset/
 yolov5/
 yolo-birds/
