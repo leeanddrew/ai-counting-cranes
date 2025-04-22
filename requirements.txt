@@ -1,9 +1,37 @@
-torch>=1.7
-opencv-python
-matplotlib
-numpy
-sahi>=0.11.13
-tqdm
-Pillow
-dvc[aws]
 boto3
+
+# Core web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Object detection and image processing
+torch
+opencv-python-headless
+numpy
+Pillow
+
+# YOLOv5 (if you're importing from yolov5/)
+matplotlib
+pyyaml
+scipy
+tqdm
+seaborn
+
+# SAHI for slicing-aware inference
+sahi>=0.11.13
+
+# Model versioning with DVC
+dvc[aws]
+
+# Data handling
+pandas
+
+# For loading fonts or rendering (if needed)
+matplotlib
+fonttools
+
+# Logging/monitoring (optional)
+wandb
+ultralytics
+yolov5

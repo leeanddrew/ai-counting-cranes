@@ -1,5 +1,35 @@
-# .gitignore
-frontend/
-data/yolov5_dataset/
-yolov5/
-yolo-birds/
+# Node
+node_modules/
+.next/
+.env*
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS/DVC/Secrets
+.aws/
+*.key
+*.pem
+*.dvc/cache/
+*.pt
+models/best.pt
+
+# Docker
+*.container
+*.image
+
+# VS Code
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/

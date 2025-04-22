@@ -3,6 +3,7 @@ from fastapi.responses import StreamingResponse
 from fastapi.responses import FileResponse
 from sahi import AutoDetectionModel
 from PIL import Image
+import yolov5
 import io
 import os
 
@@ -23,7 +24,7 @@ app.add_middleware(
 # Load model once
 detection_model = AutoDetectionModel.from_pretrained(
     model_type='yolov5',
-    model_path='models/best.pt',
+    model_path='dvcfiles/best.pt',
     confidence_threshold=0.2,
     device='cpu'
 )

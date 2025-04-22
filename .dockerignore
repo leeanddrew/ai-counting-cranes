@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+.venv
+env/
+
+# Others
+wandb/
+yolo-birds/
+README.md/
+models/
+
+# Git
+.git
+.gitignore
+
+# DVC
+.git
+dvcfiles/*.dvc
+dvcfiles/*.dvc.lock
+
+# Node.js (if using frontend)
+node_modules/
+frontend/.next/
+frontend/.env.local
+
+#datasets
+data/
+
+# Other
+*.log
