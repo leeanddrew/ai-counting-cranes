@@ -16,16 +16,22 @@ This project leverages deep learning and image slicing techniques to detect and 
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tech Stack
 
+### 🔍 Backend
 - **YOLOv5**: Object detection architecture (via Ultralytics)
 - **SAHI**: Efficient inference on large images through slicing
 - **PyTorch**: Model training & experimentation
 - **OpenCV**: Image preprocessing
-- **Streamlit**: UI for uploading and visualizing results
-- **AWS S3 + Lambda** (planned): Hosting and model serving
+- **FastAPI**: Lightweight web framework for serving predictions
 - **Docker**: Containerized deployment
-- **GitHub Actions + DVC** (in progress): CI/CD and data/model versioning
+- **AWS S3 + Lambda** (planned): Hosting and model serving
+- **GitHub Actions + DVC**: CI/CD and data/model versioning
+
+### 🖼️ Frontend
+- **Next.js (v15)**: React-based framework with App Router
+- **TypeScript**: Strongly typed JavaScript for scalable development
+- **Tailwind CSS**: Utility-first CSS for rapid UI styling
 
 ---
 
