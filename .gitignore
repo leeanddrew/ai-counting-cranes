@@ -3,6 +3,7 @@ frontend/
 data/
 yolov5/
 yolo-birds/
+dvcfiles/
 wandb/
 .dvc/
 models/
