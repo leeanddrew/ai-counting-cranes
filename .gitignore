@@ -3,8 +3,9 @@ frontend/
 data/
 yolov5/
 yolo-birds/
-dvcfiles/
-yolo-birds/
+wandb/
+.dvc/
+models/
 
 # Node
 node_modules/
