@@ -4,7 +4,7 @@ This project leverages deep learning and image slicing techniques to detect and 
 
 📌 Ongoing collaboration with wildlife conservation efforts to monitor crane populations in protected habitats.
 
-![Demo](/demo.gif)
+![Demo](/assets/demo.gif)
 
 
 ---
