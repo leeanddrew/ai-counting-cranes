@@ -2,13 +2,12 @@
 
 This project leverages deep learning and image slicing techniques to detect and count **Sandhill Cranes** in aerial thermal imagery. It combines object detection models (YOLOv5) with efficient inference strategies (SAHI) and is being extended into a fully deployable app with MLOps best practices.
 
-> 📌 Ongoing collaboration with wildlife conservation efforts to monitor crane populations in protected habitats.
+📌 Ongoing collaboration with wildlife conservation efforts to monitor crane populations in protected habitats.
 
 <video width="600" controls>
-  <source src="/demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/leeanddrew/ai-counting-cranes/main/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 ---
 
